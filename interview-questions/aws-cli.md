@@ -1,20 +1,20 @@
 ### 1. What is the AWS Command Line Interface (CLI)?
-The AWS Command Line Interface (CLI) is a unified tool that allows you to interact with various AWS services using command-line commands.
+The AWS Command Line Interface (CLI) is a unified tool that **allows you to interact with various AWS services using command-line commands**.
 
 ### 2. Why would you use the AWS CLI?
-The AWS CLI provides a convenient way to automate tasks, manage AWS resources, and interact with services directly from the command line, making it useful for scripting and administration.
+The AWS CLI provides a convenient way to **automate tasks**, manage AWS resources, and **interact with services directly from the command line**, making it useful for scripting and administration.
 
 ### 3. How do you install the AWS CLI?
 You can install the AWS CLI on various operating systems using package managers or by downloading the installer from the AWS website.
 
 ### 4. What is the purpose of AWS CLI profiles?
-AWS CLI profiles allow you to manage multiple sets of AWS security credentials, making it easier to switch between different accounts and roles.
+AWS CLI profiles **allow you to manage multiple sets of AWS security credentials**, making it easier to switch between different accounts and roles.
 
 ### 5. How can you configure the AWS CLI with your credentials?
-You can configure the AWS CLI by running the `aws configure` command, where you provide your access key, secret key, default region, and output format.
+You can configure the AWS CLI by running the `**aws configure**` command, w**here you provide your access key, secret key, default region, and output format**.
 
 ### 6. What is the difference between IAM user-based credentials and IAM role-based credentials in the AWS CLI?
-IAM user-based credentials are long-term access keys associated with an IAM user, while IAM role-based credentials are temporary credentials obtained by assuming a role using the `sts assume-role` command.
+IAM user-based credentials are **long-term access keys associated with an IAM user**, while IAM role-based credentials are **temporary credentials obtained by assuming a role** using the `**sts assume-role**` command.
 
 ### 7. How can you interact with AWS services using the AWS CLI?
 You can interact with AWS services by using AWS CLI commands specific to each service. For example, you can use `aws ec2 describe-instances` to list EC2 instances.
